@@ -1,3 +1,9 @@
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 @media (max-width: 768px) {
     main {
         flex-direction: column;
@@ -9,32 +15,24 @@
         width: 90%;
         margin-top: 1rem; /* Ajusta el margen superior según sea necesario */
         padding-left: 1rem; /* 16px */
+        padding-right: 1rem; /* 16px */
     }
 
     .contenedor-botones {
         order: 2;
         width: 90%;
         margin-top: 1rem; /* Ajusta el margen superior según sea necesario */
-        padding-left: 2%;
-    }
-
-    .seccion2 {
-        order: 3;
-        width: 100%;
-        height: auto;
-        right: 0;
-        padding-right: 0;
-        box-shadow: none;
-        margin-top: 1rem; /* Añade un margen superior si es necesario */
-        display: none; /* Oculta la sección con el dibujo */
+        padding-left: 1rem; /* 16px */
+        padding-right: 1rem; /* 16px */
     }
 
     .contenedor-resultado {
-        order: 4;
+        order: 3;
         width: 90%;
         height: auto;
-        margin-left: 0.5rem; /* 8px */
         margin-top: 1rem; /* Ajusta el margen superior según sea necesario */
+        padding-left: 1rem; /* 16px */
+        padding-right: 1rem; /* 16px */
     }
 
     .contenedormunieco img {
