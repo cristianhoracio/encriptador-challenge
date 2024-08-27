@@ -1,37 +1,58 @@
-/* Media Queries para Responsividad */
-
-/* Estilos para dispositivos móviles */
-@media (max-width: 600px) {
+/* Estilos para pantallas pequeñas */
+@media (max-width: 768px) {
     .contenedorcajatexto {
-      width: 100%;
-      padding-left: 1.25rem; /* 20px */
+      width: 90%;
+      left: 1rem; /* 16px */
+      top: 5rem; /* 80px */
+      padding-left: 1rem; /* 16px */
     }
   
     .cajatexto {
       font-size: 1.5rem; /* 24px */
     }
   
+    .contenedor-botones {
+      top: 40rem; /* 640px */
+      padding-left: 2%;
+    }
+  
     .btn-encriptar, .btn-desencriptar {
+      width: 90%;
+      height: 3rem; /* 48px */
+      font-size: 1rem; /* 16px */
+    }
+  
+    .seccion2 {
       width: 100%;
-      margin-bottom: 0.625rem; /* 10px */
+      height: auto;
+      right: 0;
+      padding-right: 0;
+      box-shadow: none;
+    }
+  
+    .contenedormunieco img {
+      width: 15rem; /* 240px */
+      height: 15rem; /* 240px */
+    }
+  
+    .contenedor-parrafo h3 {
+      font-size: 1.25rem; /* 20px */
+    }
+  
+    .contenedor-parrafo p {
+      font-size: 0.875rem; /* 14px */
+    }
+  
+    .contenedor-resultado {
+      width: 90%;
+      height: auto;
+      margin-left: 0.5rem; /* 8px */
+    }
+  
+    .btn-copiar {
+      width: 90%;
+      height: 3rem; /* 48px */
+      font-size: 1rem; /* 16px */
     }
   }
   
-  /* Estilos para tablets */
-  @media (min-width: 601px) and (max-width: 1024px) {
-    .contenedorcajatexto {
-      width: 80%;
-      padding-left: 3.125rem; /* 50px */
-    }
-  
-    .cajatexto {
-      font-size: 1.75rem; /* 28px */
-    }
-  
-    .btn-encriptar, .btn-desencriptar {
-      width: 80%;
-    }
-  }
-  
-
-
