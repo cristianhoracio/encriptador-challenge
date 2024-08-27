@@ -1,58 +1,49 @@
-/* Estilos para pantallas pequeñas */
 @media (max-width: 768px) {
+    main {
+        flex-direction: column;
+        align-items: center;
+    }
+
     .contenedorcajatexto {
-      width: 90%;
-      left: 1rem; /* 16px */
-      top: 5rem; /* 80px */
-      padding-left: 1rem; /* 16px */
+        order: 1;
+        width: 90%;
+        margin-top: 1rem; /* Ajusta el margen superior según sea necesario */
+        padding-left: 1rem; /* 16px */
     }
-  
-    .cajatexto {
-      font-size: 1.5rem; /* 24px */
-    }
-  
+
     .contenedor-botones {
-      top: 40rem; /* 640px */
-      padding-left: 2%;
+        order: 2;
+        width: 90%;
+        margin-top: 1rem; /* Ajusta el margen superior según sea necesario */
+        padding-left: 2%;
     }
-  
-    .btn-encriptar, .btn-desencriptar {
-      width: 90%;
-      height: 3rem; /* 48px */
-      font-size: 1rem; /* 16px */
-    }
-  
+
     .seccion2 {
-      width: 100%;
-      height: auto;
-      right: 0;
-      padding-right: 0;
-      box-shadow: none;
+        order: 3;
+        width: 100%;
+        height: auto;
+        right: 0;
+        padding-right: 0;
+        box-shadow: none;
+        margin-top: 1rem; /* Añade un margen superior si es necesario */
+        display: none; /* Oculta la sección con el dibujo */
     }
-  
-    .contenedormunieco img {
-      width: 15rem; /* 240px */
-      height: 15rem; /* 240px */
-    }
-  
-    .contenedor-parrafo h3 {
-      font-size: 1.25rem; /* 20px */
-    }
-  
-    .contenedor-parrafo p {
-      font-size: 0.875rem; /* 14px */
-    }
-  
+
     .contenedor-resultado {
-      width: 90%;
-      height: auto;
-      margin-left: 0.5rem; /* 8px */
+        order: 4;
+        width: 90%;
+        height: auto;
+        margin-left: 0.5rem; /* 8px */
+        margin-top: 1rem; /* Ajusta el margen superior según sea necesario */
     }
-  
+
+    .contenedormunieco img {
+        display: none; /* Oculta la imagen del muñeco */
+    }
+
     .btn-copiar {
-      width: 90%;
-      height: 3rem; /* 48px */
-      font-size: 1rem; /* 16px */
+        width: 90%;
+        height: 3rem; /* 48px */
+        font-size: 1rem; /* 16px */
     }
-  }
-  
+}
