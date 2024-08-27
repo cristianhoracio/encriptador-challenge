@@ -1,0 +1,41 @@
+{
+    "version": "0.2",
+    "language": "en",
+    "words": [
+        "acentos",
+        "alerta",
+        "aqui",
+        "binario",
+        "botones",
+        "cajatexto",
+        "candado",
+        "codigo",
+        "contenedor",
+        "contenedorcajatexto",
+        "contenedormunieco",
+        "copiar",
+        "desees",
+        "desencriptar",
+        "encontrado",
+        "Encriptador",
+        "encriptar",
+        "imagen",
+        "Ingresa",
+        "Ingrese",
+        "letras",
+        "mensaje",
+        "minúsculas",
+        "Nigún",
+        "ocultar",
+        "parrafo",
+        "representacion",
+        "resultado",
+        "seccion",
+        "texto",
+        "unos",
+        "Zilla"
+    ],
+    "ignorePaths": [
+        "node_modules"
+    ]
+}
