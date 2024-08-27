@@ -35,6 +35,17 @@ main {
         padding-right: 1rem; /* 16px */
     }
 
+    .seccion2 {
+        order: 4;
+        width: 100%;
+        height: auto;
+        right: 0;
+        padding-right: 0;
+        box-shadow: none;
+        margin-top: 1rem; /* Añade un margen superior si es necesario */
+        display: none; /* Oculta la sección con el dibujo */
+    }
+
     .contenedormunieco img {
         display: none; /* Oculta la imagen del muñeco */
     }
