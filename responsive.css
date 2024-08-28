@@ -1,0 +1,58 @@
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contenedorcajatexto {
+        order: 1;
+        width: 90%;
+        margin-top: 1rem; /* Ajusta el margen superior según sea necesario */
+        padding-left: 1rem; /* 16px */
+        padding-right: 1rem; /* 16px */
+    }
+
+    .contenedor-botones {
+        order: 2;
+        width: 90%;
+        margin-top: 1rem; /* Ajusta el margen superior según sea necesario */
+        padding-left: 1rem; /* 16px */
+        padding-right: 1rem; /* 16px */
+    }
+
+    .contenedor-resultado {
+        order: 3;
+        width: 90%;
+        height: auto;
+        margin-top: 1rem; /* Ajusta el margen superior según sea necesario */
+        padding-left: 1rem; /* 16px */
+        padding-right: 1rem; /* 16px */
+    }
+
+    .seccion2 {
+        order: 4;
+        width: 100%;
+        height: auto;
+        right: 0;
+        padding-right: 0;
+        box-shadow: none;
+        margin-top: 1rem; /* Añade un margen superior si es necesario */
+        display: none; /* Oculta la sección con el dibujo */
+    }
+
+    .contenedormunieco img {
+        display: none; /* Oculta la imagen del muñeco */
+    }
+
+    .btn-copiar {
+        width: 90%;
+        height: 3rem; /* 48px */
+        font-size: 1rem; /* 16px */
+    }
+}
