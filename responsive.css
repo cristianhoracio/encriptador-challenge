@@ -37,13 +37,11 @@ main {
 
     .seccion2 {
         order: 4;
-        width: 100%;
+        width: 90%;
         height: auto;
-        right: 0;
-        padding-right: 0;
-        box-shadow: none;
-        margin-top: 1rem; /* Añade un margen superior si es necesario */
-        display: none; /* Oculta la sección con el dibujo */
+        margin-top: 1rem; /* Ajusta el margen superior según sea necesario */
+        padding-left: 1rem; /* 16px */
+        padding-right: 1rem; /* 16px */
     }
 
     .contenedormunieco img {

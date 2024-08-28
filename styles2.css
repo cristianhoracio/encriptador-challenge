@@ -1,0 +1,236 @@
+/* Estilos base */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Zilla Slab", sans-serif;
+  }
+  
+  html {
+    font-size: 16px; /* 1 rem = 16 px */
+  }
+  
+  body {
+    background-color: #f4f4fc;
+  }
+  
+  input {
+    z-index: 10;
+  }
+  
+  header {
+    width: 100%;
+    height: 4.375rem; /* 70px */
+  }
+  
+  .logo {
+    height: 3.125rem; /* 50px */
+    padding-top: 1.25rem; /* 20px */
+    padding-left: 2.5rem; /* 40px */
+  }
+  
+  main {
+    position: absolute;
+    flex-direction: row;
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .contenedorcajatexto {
+    position: absolute;
+    left: 3.125rem; /* 50px */
+    top: 6.25rem; /* 100px */
+    padding-left: 6.25rem; /* 100px */
+    width: 67.5rem; /* 1080px */
+    height: 37.5rem; /* 600px */
+  }
+  
+  .cajatexto {
+    width: 60%;
+    height: 100%;
+    border: none;
+    background-color: #f4f4fc;
+    cursor: pointer;
+    color: #0a3871;
+    font-size: 2rem; /* 32px */
+    font-weight: 400;
+    font-family: "Zilla Slab", sans-serif;
+  }
+  
+  .cajatexto::placeholder {
+    color: #0a3871;
+  }
+  
+  .alerta {
+    position: absolute;
+    top: 46.875rem; /* 750px */
+    left: 9.375rem; /* 150px */
+    display: flex;
+    color: #495057;
+  }
+  
+  .alerta img {
+    padding-right: 1.25rem; /* 20px */
+  }
+  
+  .contenedor-botones {
+    position: absolute;
+    top: 50rem; /* 800px */
+    height: 5rem; /* 80px */
+    padding-left: 5%;
+    padding-top: 0.9375rem; /* 15px */
+  }
+  
+  .btn-encriptar,
+  .btn-desencriptar {
+    width: 20.5rem; /* 328px */
+    height: 4.1875rem; /* 67px */
+    border-radius: 1.5rem; /* 24px */
+    font-size: 1.25rem; /* 20px */
+    font-weight: 400;
+    font-family: "Zilla Slab", sans-serif;
+    cursor: pointer;
+    margin-right: 1.25rem; /* 20px */
+  }
+  
+  .btn-encriptar {
+    background-color: #0a3871;
+    color: white;
+    border: none;
+  }
+  
+  .btn-desencriptar {
+    background-color: #d8dfe8;
+    color: #0a3871;
+    border: 1px solid #0a3871;
+  }
+  
+  .seccion2 {
+    display: block;
+    position: relative;
+    width: 25rem; /* 400px */
+    height: 52.5rem; /* 840px */
+    right: 6.25rem; /* 100px */
+    padding-right: 1.25rem; /* 20px */
+    background-color: #ffffff;
+    box-sizing: border-box;
+    border-radius: 2rem; /* 32px */
+    box-shadow: 0px 1.5rem 2rem -0.5rem rgba(0, 0, 0, 0.5); /* 0px 24px 32px -8px */
+  }
+  
+  .contenedormunieco {
+    position: absolute;
+    left: 1.875rem; /* 30px */
+    top: 11.25rem; /* 180px */
+    box-sizing: border-box;
+    padding-top: 3.125rem; /* 50px */
+  }
+  
+  .contenedormunieco img {
+    width: 18.75rem; /* 300px */
+    height: 18.75rem; /* 300px */
+    padding-left: 1.25rem; /* 20px */
+  }
+  
+  .contenedor-parrafo {
+    position: absolute;
+    box-sizing: border-box;
+    top: 35.625rem; /* 570px */
+    left: 2.5rem; /* 40px */
+  }
+  
+  .contenedor-parrafo h3 {
+    font-size: 1.5rem; /* 24px */
+    font-weight: 700;
+    text-align: center;
+    color: #343a40;
+  }
+  
+  .contenedor-parrafo p {
+    font-weight: 400;
+    font-size: 1rem; /* 16px */
+    text-align: center;
+    color: #495057;
+    padding-top: 1.25rem; /* 20px */
+    padding-left: 1.25rem; /* 20px */
+  }
+  
+  .contenedor-resultado {
+    position: absolute;
+    bottom: 20.625rem; /* 330px */
+    width: 20rem; /* 320px */
+    height: 28.125rem; /* 450px */
+    padding: 0;
+    box-sizing: border-box;
+    margin-left: 1.5625rem; /* 25px */
+  }
+  
+  .contenedor-resultado p {
+    color: #495057;
+    font-size: 1.5625rem; /* 25px */
+  }
+  
+  .contenedor-copiar {
+    display: flex;
+    position: absolute;
+    bottom: 25rem; /* 400px */
+    top: 43.75rem; /* 700px */
+    background-color: aqua;
+    padding-left: 2.5rem; /* 40px */
+  }
+  
+  .btn-copiar {
+    width: 20.5rem; /* 328px */
+    height: 4.1875rem; /* 67px */
+    border-radius: 1.5rem; /* 24px */
+    background-color: #ffffff;
+    color: #0a3871;
+    font-size: 1.25rem; /* 20px */
+    font-weight: 400;
+    font-family: "Zilla Slab", sans-serif;
+    border: 1px solid #0a3871;
+    cursor: pointer;
+    position: relative;
+    top: 3.125rem; /* 50px */
+    right: 0.25rem; /* 4px */
+  }
+  
+  .ocultar {
+    display: none;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    main {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .contenedorcajatexto {
+      width: 90%;
+      left: 0;
+      top: 5rem; /* Ajusta según sea necesario */
+      padding-left: 0;
+    }
+  
+    .contenedor-botones {
+      top: 40rem; /* Ajusta según sea necesario */
+      padding-left: 0;
+      width: 100%;
+      text-align: center;
+    }
+  
+    .seccion2 {
+      width: 90%;
+      height: auto;
+      right: 0;
+      top: 55rem; /* Ajusta según sea necesario */
+      margin-top: 2rem;
+    }
+  
+    .contenedormunieco img {
+      display: none;
+    }
+  }
+  
